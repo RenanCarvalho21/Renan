@@ -1,0 +1,135 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/RenanCarvalho21/Renan/blob/main/AULA10092024\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Solicita ao usuário que insira um número\n",
+        "numero = int(input(\"Digite um número inteiro:\"))\n",
+        "\n",
+        "#Verifica se o número é par ou ímpar\n",
+        "if numero % 2 == 0:\n",
+        "  print(f\"O número {numero} é par.\")\n",
+        "else:\n",
+        "    print(f\"O número {numero} é impar.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_rRL3MRNbsqA",
+        "outputId": "d97d578c-040d-4623-8270-6f312f2c489b"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite um número inteiro:3\n",
+            "O número 3 é impar.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import math\n",
+        "# Solicita ao usuário que insira um número\n",
+        "numero = float(input(\"Digite um número: \"))\n",
+        "\n",
+        "# Verifica se o número é maior ou igual a zero\n",
+        "if numero >= 0:\n",
+        "  raiz_quadrada = math.sqrt(numero)\n",
+        "  print(f\"A raiz quadrada de {numero} é {raiz_quadrada: .2f}.\")\n",
+        "else:\n",
+        "  print(\"Não existe raiz real para este número!\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UZmUX_kff1MQ",
+        "outputId": "0fa5480d-a359-460d-acf7-435bc334c608"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite um número: 22\n",
+            "A raiz quadrada de 22.0 é  4.69.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Solicita ao usuário que insira o comprimento e a largura da camiseta\n",
+        "comprimento = float(input(\"Digite o comprimento da camiseta em centímetros: \"))\n",
+        "largura = float(input(\"Digite a largura da camiseta em centímetros: \"))\n",
+        "\n",
+        "# Determina o tamanho da camiseta com base no comprimento e largura\n",
+        "if comprimento <= 60 and largura <= 45:\n",
+        "  tamanho = \"PP\"\n",
+        "elif comprimento <= 65 and largura <= 48:\n",
+        "  tamanho = \"P\"\n",
+        "elif comprimento <= 70 and largura <= 51:\n",
+        "  tamanho = \"M\"\n",
+        "elif comprimento <= 75 and largura <= 54:\n",
+        "  tamanho = G\n",
+        "elif comprimento <= 80 and largura <= 57:\n",
+        "  tamanho = GG\n",
+        "else:\n",
+        "  tamanho = \"XGG\"\n",
+        "# Exibe o tamanho da camiseta\n",
+        "print(f\"O tamanho da camiseta é {tamanho}.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-VpMm0fYijTx",
+        "outputId": "c01a81f8-bcad-4b49-fb6e-9b5dddd884af"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o comprimento da camiseta em centímetros: 50\n",
+            "Digite a largura da camiseta em centímetros: 20\n",
+            "O tamanho da camiseta é PP.\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Olá, este é o Colaboratory",
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
